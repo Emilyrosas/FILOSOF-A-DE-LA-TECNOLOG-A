@@ -30,12 +30,13 @@ h2{
 }
 
 #texto{
-   font-size:1.5rem ;
+   font-size:1rem ;
 width: 60ch;
 text-align: center;
 margin-bottom: 4rem;
 margin-top: 1rem;
 color: black;
+line-height: 2;
 }
 
 
@@ -54,15 +55,22 @@ color: black;
 }
 
 .frase{
-   font-size: 1.5rem;
+   font-size: 1rem;
    width: 30ch;
    color: rgb(0, 0, 0);
    margin-left: 5em;
    margin-top: 5rem;
+   line-height: 2;
 }
 
 .letra{
   
    color: rgb(255, 0, 0);
   
+}
+
+.se{
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }

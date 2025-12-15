@@ -18,8 +18,8 @@ const Visual = function(p) {
     p.preload = function() {
         //mivideo = p.createVideo(["videos/ave.mp4"])
 
-    videos.push(p.createVideo(["aves_1.mp4"]))
-    videos.push(p.createVideo(["aves_2.mp4"]))
+    videos.push(p.createVideo(["final2.mp4"]))
+    videos.push(p.createVideo(["final3.mp4"]))
 
 
         shaderfx = p.loadShader("shaders/vertShader.vert" , "shaders/gridShaderV7.frag")
