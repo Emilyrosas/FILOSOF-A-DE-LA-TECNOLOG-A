@@ -35,6 +35,12 @@ const Visual = function(p) {
         videos[0].hide()
         videos[1].hide()
 
+        videos[0].mute();
+        videos[1].mute();
+
+        videos[0].volume(0);
+        videos[1].volume(0);
+
         videos[0].loop()
         videos[1].loop()
 
